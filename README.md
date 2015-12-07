@@ -9,3 +9,6 @@
 3、table中的tr td th设置position:relative也许会影响border的设置效果，本例子中开始将td设置了position:relative属性，导致边框设置的一直无效，真是找了好久才发现问题。
 
 具体的js实现查看smartFloat.js文件
+
+
+还有一个添加分类，修改，删除分类的小插件 http://livi12.github.io/smartFoalt/pages/leke-v1-2/index.html
