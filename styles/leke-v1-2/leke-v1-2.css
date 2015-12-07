@@ -1,0 +1,43 @@
+.z-leke-classify{width: 188px;border-left:1px solid #d7d7d7;border-right:1px solid #d7d7d7;background-color: #f8f8f8;height: 100%;}
+.z-leke-classify .classify-title{color:#444;font-size: 14px;line-height: 35px;padding-left: 8px;border-bottom: 1px solid #d7d7d7;padding-right: 10px;}
+.z-leke-classify .classify-list{color: #666;font-size: 12px;}
+.z-leke-classify .classify-list li{padding-right: 10px;border-bottom: 1px solid #e7e7e7;padding-left: 12px;line-height: 27px; }
+.z-leke-classify .classify-title .add-btn{float: right;position: relative;width: 20px;height: 36px;font-size: 20px;color:#d1d1d1;cursor: pointer;}
+.z-leke-classify .classify-title .add-btn:hover{color:#0aa399;}
+.z-leke-classify .add-btn .m-tippop{position: absolute;top: -27px;left: -13px;width: 60px;text-align: center;line-height:22px;height: 22px;background-color: #f0f0f1;border-radius: 4px;display: none;}
+.z-leke-classify .add-btn .m-tippop .msg{line-height:22px;height: 22px;padding: 0;font-size: 12px;color:#333;}
+.z-leke-classify .m-tippop.m-tippop-bt-left .arrow i{border-top-color: #f0f0f1;}
+.z-leke-classify .list-text{width: 120px;height: 27px;line-height: 27px;overflow:hidden;word-wrap:normal;white-space:nowrap;text-overflow:ellipsis}
+.z-leke-classify .edit-name{width: 120px;background-color: #fff;outline: none;border:0 none;}
+.z-leke-classify .logo-btn{float: right;}
+.z-leke-classify .logo-btn i{margin-left: 5px;color:#d1d1d1;cursor: pointer;}
+.z-leke-classify .logo-btn i:hover{color:#0aa399;}
+
+.z-class-table-wrap{width: 1000px; margin: 50px;}
+
+/* 排课表格 */
+.z-class-table{width: 100%;font-size: 12px;background-color: #fafafa;border-collapse:collapse;table-layout: inherit;}
+.z-class-table th,.z-class-table td{border-top:1px solid #bfbfbf;border-right:1px solid #bfbfbf;padding: 10px 0;text-align: center;width: 14.28%;overflow: hidden;}
+.z-class-table .table-title{width: 4.8%;background-color: #fff;color: #444;border: 1px solid #bfbfbf;}
+.z-class-table .table-tr-title th{text-align: center;font-size: 14px;}
+.z-class-table .table-tr-title .table-item{color: #1fb5ab;}
+.z-class-table .table-content td{color: #666;font-size: 12px;line-height: 16px;text-align: center;}
+.z-class-table .td-table-wrap .table-content td{border-bottom: 1px solid #bfbfbf;}
+.z-class-table .td-table-wrap .table-content:last-child td{border-bottom:0 none;}
+.z-class-table .table-content td.label-logo::after{position: absolute;width: 20px;height: 20px;font-size: 12px;color:#fff;right:4px;top:4px;text-align: center;line-height: 20px;border-radius: 20px;border:1px transparent solid;vertical-align: middle;}
+.z-class-table .table-content td.label-logo-social::after{background-color: #fcb934;content:"社";}
+.z-class-table .table-content td.label-logo-normal::after{background-color: #1fb5ab;content:"普";}
+.z-class-table .table-content td.label-logo-person::after{background-color: #ff5500;content:"个";}
+.z-class-table .table-content td:hover.label-logo::after{border-color:#fff;}
+.z-class-table .all-class-total .table-tr-title{background-color: #f6f6f6;border-left: 1px solid #bfbfbf;border-top:1px solid #bfbfbf;width: 1000px;}
+.z-class-table .am-class-total .table-tr-title{background-color: #fffbf3;width: 1000px;}
+.z-class-table .am-class-total{background-color: #fff7e8;}
+.z-class-table .pm-class-total .table-tr-title{background-color: #fff1f1;width: 1000px;}
+.z-class-table .pm-class-total{background-color: #ffe3e3; }
+.z-class-table .evening-class-total .table-tr-title{background-color: #edf3ff;width: 1000px;}
+.z-class-table .evening-class-total{background-color: #dbe8ff;}
+.z-class-table .am-class-total .td-table-wrap .table-content td:hover, .z-class-table .pm-class-total .td-table-wrap .table-content td:hover, .z-class-table .evening-class-total .td-table-wrap .table-content td:hover{background-color: #1fb5ab;color: #fff; cursor:pointer;}
+.z-class-table .td-table-wrap{width: 95.2%;padding: 0;border-bottom: 1px solid #bfbfbf;border-right: 0 none;border-top: 1px solid #bfbfbf;overflow: hidden;}
+.z-class-table .td-table{width: 100%;width: 951px;}
+.z-class-table .am-class-total .table-content:last-child,.z-class-table .pm-class-total .table-content:last-child,.z-class-table .evening-class-total .table-content:last-child{border-bottom: 0 none;}
+.z-class-table th, .z-class-table tbody:first-child td{border-top:none;}
