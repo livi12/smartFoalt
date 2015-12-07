@@ -85,6 +85,7 @@
             $obj.css({
                 position: "fixed",
                 top: (0+height),
+                'z-index':2,
                 display:this.fixedShow ||'block'
             });
         },
@@ -92,11 +93,13 @@
             $obj.css({
                 position: this.temp,
                 top:'none',
+                'z-index':1,
                 display:this.oldShow
             });
             if(this.temp=='absolute'){
                  $obj.css({
                     top: this.dateTop,
+                    'z-index':1,
                     display:this.oldShow
                 });
             }
